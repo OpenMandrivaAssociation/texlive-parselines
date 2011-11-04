@@ -1,3 +1,9 @@
+# revision 21475
+# category Package
+# catalog-ctan /macros/latex/contrib/parselines
+# catalog-date 2011-02-19 16:41:47 +0100
+# catalog-license lppl1.3
+# catalog-version 1.4
 Name:		texlive-parselines
 Version:	1.4
 Release:	1
@@ -45,6 +51,7 @@ of shading the lines of an environment is given.
 %doc %{_texmfdistdir}/source/latex/parselines/parselines.drv
 %doc %{_texmfdistdir}/source/latex/parselines/parselines.dtx
 %doc %{_texmfdistdir}/source/latex/parselines/parselines.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ of shading the lines of an environment is given.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
