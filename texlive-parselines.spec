@@ -6,7 +6,7 @@
 # catalog-version 1.4
 Name:		texlive-parselines
 Version:	1.4
-Release:	1
+Release:	2
 Summary:	Apply a macro to each line of an environment
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/parselines
