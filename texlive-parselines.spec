@@ -3,7 +3,7 @@ Version:	21475
 Release:	2
 Summary:	Apply a macro to each line of an environment
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/parselines
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/parselines
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/parselines.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/parselines.doc.r%{version}.tar.xz
